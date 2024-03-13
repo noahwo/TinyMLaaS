@@ -1,3 +1,4 @@
+setuptools==67.8.0
 boto3==1.26.142
 docker_py==1.10.6
 execnb==0.1.5
@@ -9,7 +10,6 @@ pandas==2.0.1
 Pillow==9.5.0
 pyserial==3.5
 Requests==2.31.0
-setuptools==67.8.0
 tensorflow==2.12.0
 opencv-python
 Werkzeug>=2.3.3
