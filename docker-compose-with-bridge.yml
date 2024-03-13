@@ -38,7 +38,7 @@ services:
       - "/dev/serial:/dev/serial"
     # If the runtime is not available, use privileged mode
     runtime: sysbox-runc
-    # privileged: true
+    privileged: true
     ports:
       - 5000:8080
 

@@ -3,7 +3,7 @@ FROM nestybox/alpine-docker
 EXPOSE 8080
 
 RUN apk update && apk add --no-cache docker git usbutils python3 py3-pip &&\
-    pip3 install --upgrade pip && \
+    pip3 install --upgrade pip && \ 
     git clone https://github.com/noahwo/TinyML-MCU.git
 
 WORKDIR /TinyML-MCU
